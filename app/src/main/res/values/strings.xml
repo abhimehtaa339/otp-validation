@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">opt login</string>
+    <string name="otp_notice">we will send you a  otp on this mobile number</string>
+</resources>

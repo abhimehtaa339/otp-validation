@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728809928328",
+    "project_id": "opt-login-e250f",
+    "storage_bucket": "opt-login-e250f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728809928328:android:cca647a4a55b5859ac113d",
+        "android_client_info": {
+          "package_name": "com.example.optlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728809928328-h4dgkbqm5ijgfcav1jjn8tnb4hq9dthh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDax0J8ylSdXIGldK7bwTcGYO9_3qyCLvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728809928328-h4dgkbqm5ijgfcav1jjn8tnb4hq9dthh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

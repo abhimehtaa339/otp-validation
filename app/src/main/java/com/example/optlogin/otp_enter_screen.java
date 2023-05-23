@@ -58,7 +58,7 @@ public class otp_enter_screen extends AppCompatActivity {
         gettingIntent("otp");
 
 
-        number_display.setText(number);
+        number_display.setText("your no is +91 "+number);
 
 
 
@@ -210,11 +210,47 @@ public class otp_enter_screen extends AppCompatActivity {
 
             }
         });
+        num4.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if (!s.toString().isEmpty()){
+                    num5.requestFocus();
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+        num5.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if (!s.toString().isEmpty()){
+                    num6.requestFocus();
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
     }
 
     void gettingIntent(String key){
         Intent intent1 = getIntent();
-        number = intent1.getStringExtra("mobile_number");
+        number = intent1.getStringExtra("number");
         backendotp = intent1.getStringExtra(key);
     }
 }

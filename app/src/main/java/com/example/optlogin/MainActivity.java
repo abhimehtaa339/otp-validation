@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                                   public void onVerificationFailed(@NonNull FirebaseException e) {
                                       bar.setVisibility(View.GONE);
                                       submit.setVisibility(View.VISIBLE);
-                                      Toast.makeText(MainActivity.this , e.getMessage() , Toast.LENGTH_SHORT).show();
+                                      Toast.makeText(MainActivity.this , "please check your internet connection" , Toast.LENGTH_SHORT).show();
                                   }
 
                                   @Override
